@@ -1,0 +1,30 @@
+{
+  "name": "pokerbot",
+  "version": "1.0.0",
+  "description": "[PokerPatio](https://pokerpatio.com/lobbies)",
+  "main": "index.js",
+  "scripts": {
+    "manager": "npx ts-node manager.ts",
+    "bot": "npx ts-node bot.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albro3459/PokerBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albro3459/PokerBot/issues"
+  },
+  "homepage": "https://github.com/Albro3459/PokerBot#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "inquirer": "^12.9.4"
+  }
+}
